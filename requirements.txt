@@ -1,0 +1,59 @@
+# ============================================================================
+# Amazon Tracker Pro - Requirements
+# 
+# Production-ready dependencies for Amazon price tracking application
+# Python 3.10+ required
+# 
+# Installation: pip install -r requirements.txt
+# ============================================================================
+
+# Core HTTP Client
+# Used for making requests to Amazon and other web services
+requests>=2.31.0,<3.0.0
+
+# Web Scraping
+# Used to parse HTML and extract product information
+beautifulsoup4>=4.12.0,<5.0.0
+lxml>=4.9.0,<5.0.0  # Better performance for BeautifulSoup
+
+# Data Processing
+# JSON support is built-in, no need to install
+
+# Logging and Monitoring
+# Built-in logging module, no external dependency needed
+
+# Type Hints
+# Included in Python 3.10+, no need to install
+
+# Optional but Recommended for Development
+# Uncomment these if you want development tools:
+
+# Code Quality
+# black>=23.0.0          # Code formatter
+# pylint>=2.17.0        # Linter
+# mypy>=1.0.0           # Type checker
+# flake8>=6.0.0         # Style guide enforcement
+
+# Testing
+# pytest>=7.0.0         # Testing framework
+# pytest-cov>=4.0.0     # Coverage reports
+
+# Performance Profiling
+# psutil>=5.9.0         # System monitoring
+
+# Documentation
+# sphinx>=5.0.0         # Documentation generator
+# sphinx-rtd-theme>=1.2.0  # ReadTheDocs theme
+
+# ============================================================================
+# Version Policy
+# 
+# We use semantic versioning:
+# - MAJOR.MINOR.PATCH
+# - Major: Breaking changes
+# - Minor: New features (backward compatible)
+# - Patch: Bug fixes (backward compatible)
+#
+# We specify minimum versions to allow updates that don't break compatibility
+# but pin to prevent breaking changes from major version upgrades.
+# ============================================================================

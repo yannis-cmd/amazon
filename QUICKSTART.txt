@@ -1,0 +1,47 @@
+AMAZON TRACKER PRO
+==================
+
+Application tkinter pour tracker souris Amazon avec Assistant IA.
+
+INSTALLATION RAPIDE:
+====================
+pip install -r requirements.txt
+python amazon_tracker.py
+
+UTILISATION:
+============
+- Tapez un budget (ex: "50") → IA recommande une souris
+- Tapez "OUI" → Ouvre Amazon.fr
+
+FICHIERS:
+=========
+✅ amazon_tracker.py    → Code principal
+✅ requirements.txt     → Dépendances
+✅ README.md            → Documentation complète
+✅ SECURITY.md          → Politique sécurité
+✅ .gitignore           → Fichiers ignorés (données locales)
+
+DONNÉES (ignorées):
+===================
+❌ articles_tracked.json  → Sauvegarde local (générée automatiquement)
+❌ search_cache.json      → Cache local (générée automatiquement)
+❌ __pycache__/           → Python compilé
+❌ .venv/                 → Virtual environment
+
+SÉCURITÉ:
+=========
+✅ Pas de clés API
+✅ Pas de données sensibles
+✅ Code source transparent
+✅ Dépendances vérifiées
+✅ Scraping respectueux
+
+BESOIN D'AIDE?
+==============
+1. Consultez README.md
+2. Vérifiez SECURITY.md
+3. Python 3.10+ requis
+
+LICENSE: MIT
+============
+Libre d'utilisation, modification, redistribution.

@@ -1,0 +1,791 @@
+[
+  {
+    "timestamp": "2026-01-19T16:22:04.821088",
+    "user": "sd@gmail.com",
+    "action": "ticket_created",
+    "details": {
+      "ticket_id": "TKT-6F43F619",
+      "title": "as",
+      "category": "bug",
+      "priority": "medium"
+    },
+    "ip_address": null,
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:40:20.664987",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:40:25.514596",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se ",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:40:33.804356",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier ",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:41:55.251246",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11e   (10 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:42:12.515390",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se  (10 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T17:42:14.035413",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Ajout: Titre indisponible",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T18:11:02.911836",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: X11se (10 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T18:11:11.924667",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Ajout: Titre indisponible",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T18:57:45.607618",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T18:57:55.009451",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:02:22.468535",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (47 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:02:35.463776",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:02:39.431994",
+    "user": "Web User",
+    "action": "delete_article",
+    "details": "Suppression article 2",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:03:01.634709",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:03:08.134264",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:08:32.720135",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:08:44.324976",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (45 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:08:59.285913",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris x11se (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:09:03.938880",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche:  x11se (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:09:16.550252",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: attack shark  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:10:27.870343",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: attack shark  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:12:56.813841",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: attack shark  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:15:58.440952",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:16:07.167036",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier gamer  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:16:11.188107",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:16:16.285814",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: attack shark  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:16:19.932751",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris   (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:18:55.532167",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris   (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:19:00.371220",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:19:45.264243",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (46 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:19:52.565725",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:19:56.161541",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:27:34.772709",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: SOURIS (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:40:36.945488",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris d (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:40:39.941634",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:41:31.531705",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T19:46:34.590993",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000007",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:02:40.943166",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:31:47.274252",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:33:58.267372",
+    "user": "Test User",
+    "action": "search",
+    "details": "Recherche: souris (46 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:35:14.911021",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:35:20.203835",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:35:27.432860",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:35:45.471005",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (47 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:35:59.292922",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Ajout: Oniverse Souris Gaming Filaire Haute Performance à LED - Capteur Optique 12 800 DPI, Ultra légère, Polling Rate 1 000 Hz, 7 Boutons programmables, pou",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:36:05.086856",
+    "user": "Web User",
+    "action": "delete_article",
+    "details": "Suppression article 3",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:36:06.648076",
+    "user": "Web User",
+    "action": "delete_article",
+    "details": "Suppression article 25",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:36:08.491132",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Ajout: Oniverse Souris Gaming Filaire Haute Performance à LED - Capteur Optique 12 800 DPI, Ultra légère, Polling Rate 1 000 Hz, 7 Boutons programmables, pou",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:39:21.768252",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: clavier (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:39:32.967778",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:39:41.163761",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:55:41.843518",
+    "user": "Test",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:58:03.254357",
+    "user": "test",
+    "action": "search",
+    "details": "Recherche: souris (45 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T20:58:33.320777",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche:  souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:02:11.775013",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:02:14.662823",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:03:26.996155",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris  (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:03:44.300281",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:06:38.654544",
+    "user": "TestUser",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:09:24.365161",
+    "user": "TestUser2",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:11:09.353732",
+    "user": "FinalTest",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:13:46.597655",
+    "user": "Test3",
+    "action": "search",
+    "details": "Recherche: test (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:16:08.927526",
+    "user": "Test",
+    "action": "search",
+    "details": "Recherche: test2 (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:20:39.150624",
+    "user": "Test",
+    "action": "search",
+    "details": "Recherche: souris (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:22:00.710281",
+    "user": "Anonymous",
+    "action": "search",
+    "details": "Recherche: test (0 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:36:40.340940",
+    "user": "WebUser",
+    "action": "search",
+    "details": "Recherche: souris page 1 (58 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:37:05.892961",
+    "user": "WebUser2",
+    "action": "search",
+    "details": "Recherche: casque page 1 (60 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:37:49.584648",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris page 1 (58 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:38:14.008677",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: souris gamer page 1 (59 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:39:11.642185",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: x11se page 1 (57 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:39:31.221270",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Article: ATTACK SHARK X11SE Souris de Jeu sans Fil, Ultra-légère, 63g, avec Capteur PixArt PAW3311, 22000 PPP, Trimode BT/2,4GHz/Filaire, 1000 Hz, Batterie 300",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:39:35.301949",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Article: ATTACK SHARK X11 SE Souris Gaming sans Fil, Capteur Gaming PixArt PAW3311, BT/2.4G sans Fil/Câblé, 22000 DPI, 65 Heures d'Autonomie, Souris Gamer/Bure",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:45:47.880988",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000008: SDD",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:48:42.297961",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000009: AD",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:51:38.618144",
+    "user": "yannis@gmail.comx",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000010: v",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:52:31.298376",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Ps5 page 1 (47 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T21:56:34.405785",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000011: xc",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:00:52.762146",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Souris page 1 (46 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:00:59.476761",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Ornata page 1 (34 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:01:40.391631",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Clavier page 1 (45 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:02:39.616470",
+    "user": "User1",
+    "action": "search",
+    "details": "Recherche: souris page 1 (59 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:04:55.749795",
+    "user": "Test001",
+    "action": "search",
+    "details": "Recherche: clavier page 1 (44 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:07:12.953233",
+    "user": "TestDiscord001",
+    "action": "search",
+    "details": "Recherche: Casque Gamer page 1 (57 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:07:16.984289",
+    "user": "TestDiscord002",
+    "action": "add_article",
+    "details": "Article: Sans titre",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:08:01.926565",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000012: dss",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:09:18.100458",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Switch page 1 (47 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:11:06.409414",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: Souris page 1 (47 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:12:16.177204",
+    "user": "DiscordTest",
+    "action": "search",
+    "details": "Recherche: souris gamer page 1 (48 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:14:05.784641",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000013: d",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:22:13.588042",
+    "user": "User123",
+    "action": "search",
+    "details": "Recherche: casque page 1 (48 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:48:31.357204",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: casque page 1 (60 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:49:22.006128",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Article: Amazon Basics Casque d’Ordinateur Filaire Supra-Auriculaire avec Micro Réglable, Port 3,5mm ou Contrôle Intégré avec Port USB-A, Pliable, Taille S/M, ",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:54:24.226934",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: casque page 1 (48 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-19T22:54:52.777896",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: CLAVIER page 1 (46 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-20T16:18:38.815612",
+    "user": "Web User",
+    "action": "search",
+    "details": "Recherche: iphone page 1 (45 résultats)",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-20T16:18:49.910589",
+    "user": "Web User",
+    "action": "add_article",
+    "details": "Article: Apple iPhone 15 (128 Go) - Noir",
+    "ip_address": "0.0.0.0",
+    "machine": "yannis"
+  },
+  {
+    "timestamp": "2026-01-20T16:19:03.971134",
+    "user": "yannis@gmail.com",
+    "action": "support_ticket",
+    "details": "Ticket TKT-000014: sd",
+    "ip_address": "127.0.0.1",
+    "machine": "yannis"
+  }
+]

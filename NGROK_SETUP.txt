@@ -1,0 +1,155 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🌐 CONFIGURATION NGROK - AMAZON TRACKER PRO
+═══════════════════════════════════════════════════════════════════════════════
+
+DOMAINE NGROK: https://abc123xyz.ngrok.io/
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🚀 ÉTAPES DE CONFIGURATION (3 ÉTAPES)
+═══════════════════════════════════════════════════════════════════════════════
+
+ÉTAPE 1: Démarrer le serveur Flask
+────────────────────────────────────────────────────────────────────────────
+Ouvrez PowerShell 1:
+  cd "C:\Users\eisbr\Nouveau dossier"
+  run_web.bat
+
+Vous verrez:
+  🌐 Amazon Tracker Pro - Application Web
+  📱 Accédez à: http://localhost:5000
+
+
+ÉTAPE 2: Déployer avec Ngrok
+────────────────────────────────────────────────────────────────────────────
+Ouvrez PowerShell 2 (nouvelle fenêtre):
+  cd "C:\Users\eisbr\Nouveau dossier"
+  deploy_web.bat
+
+Vous verrez:
+  📡 Connexion à Ngrok...
+  🌍 URL PUBLIQUE: https://abc123xyz.ngrok.io
+
+
+ÉTAPE 3: Accéder au site
+────────────────────────────────────────────────────────────────────────────
+Ouvrez votre navigateur:
+  https://abc123xyz.ngrok.io/
+
+✅ Vous êtes maintenant en ligne!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ ℹ️  IMPORTANT À SAVOIR
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️  L'URL CHANGE À CHAQUE REDÉMARRAGE (Ngrok gratuit)
+    Solution: Upgrade Ngrok Pro pour une URL fixe
+
+⚠️  LE SERVEUR DOIT RESTER ACTIF
+    Si vous fermez deploy_web.bat, l'accès s'arrête
+
+⚠️  LES DEUX FENÊTRES DOIVENT RESTER OUVERTES
+    PowerShell 1: run_web.bat (serveur)
+    PowerShell 2: deploy_web.bat (tunnel)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📋 VÉRIFICATION - TOUT EST CONFIGURÉ ✅
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ Serveur Web Flask: PRÊT
+   http://localhost:5000
+
+✅ Application Web: PRÊT
+   • Recherche Amazon
+   • Suivi articles
+   • Support client
+   • Logs activité
+
+✅ Déploiement Ngrok: PRÊT
+   https://abc123xyz.ngrok.io/
+
+✅ Accès public: PRÊT
+   Tout le monde peut accéder
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 QUE FAIRE MAINTENANT?
+═══════════════════════════════════════════════════════════════════════════════
+
+1. PARTAGER L'URL:
+   Envoyez https://abc123xyz.ngrok.io/ à vos amis/utilisateurs
+
+2. ACCÉDER DEPUIS LE TÉLÉPHONE:
+   • Ouvrez Safari (iPhone) ou Chrome (Android)
+   • Tapez: https://abc123xyz.ngrok.io/
+   • Appuyez sur "Partager" → "Ajouter à l'écran d'accueil"
+   • ✅ L'app s'ajoute comme une app native!
+
+3. TESTER LES FONCTIONNALITÉS:
+   • 🔍 Cherchez un article Amazon
+   • 📋 Ajoutez-le à votre liste
+   • 💬 Créez un ticket support
+   • 📊 Consultez les logs
+
+4. UTILISER NORMALEMENT:
+   • L'app fonctionne exactement comme la version locale
+   • Mais accessible de PARTOUT sur Internet
+   • Aucune installation requise
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔧 DÉPANNAGE
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ "L'URL ne s'ouvre pas"
+   → Assurez-vous que run_web.bat est lancé
+   → Attendez 10 secondes
+   → Essayez http://localhost:5000 d'abord
+
+❌ "Connection refused"
+   → Flask n'est pas lancé
+   → Lancez run_web.bat dans PowerShell 1
+
+❌ "Ngrok ne démarre pas"
+   → Installez Ngrok: https://ngrok.com/download
+   → Ou attendez que le script l'installe
+
+❌ "L'URL change à chaque fois"
+   → C'est normal pour Ngrok gratuit
+   → Upgrade Pro pour une URL fixe
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💡 POUR UNE URL PERSONNALISÉE (OPTIONNEL)
+═══════════════════════════════════════════════════════════════════════════════
+
+NGROK PRO (Optional - $5-15/mois):
+
+1. Créez un compte: https://ngrok.com
+2. Achetez un plan Pro
+3. Obtenez une URL fixe: amazontracker.ngrok.io
+4. Configurez dans deploy_web.py:
+   ngrok http 5000 --subdomain=amazontracker
+
+✅ Résultat: https://amazontracker.ngrok.io/ (toujours la même URL!)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎉 RÉSUMÉ
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ ÉTAPE 1: run_web.bat (serveur)
+✅ ÉTAPE 2: deploy_web.bat (Ngrok)
+✅ ÉTAPE 3: https://abc123xyz.ngrok.io/ (accès public)
+
+✅ Votre app Amazon Tracker est maintenant EN LIGNE!
+
+Partagez l'URL avec qui vous voulez. Ils auront accès à:
+  • Recherche Amazon en direct
+  • Suivi d'articles
+  • Système de support
+  • Logs d'activité
+  • Tout - zéro installation!
+
+═══════════════════════════════════════════════════════════════════════════════

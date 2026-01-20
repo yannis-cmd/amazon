@@ -1,0 +1,58 @@
+DEMARRAGE DU SERVEUR - GUIDE RAPIDE
+=====================================
+
+METHODE SIMPLE (RECOMMANDÉE)
+=============================
+
+1. Ouvrez l'Explorateur Windows
+2. Allez dans: C:\Users\eisbr\Nouveau dossier
+3. Double-cliquez sur: START_SERVER.bat
+
+Le serveur démarre dans une fenêtre cmd qui reste ouverte.
+
+ADRESSES DISPONIBLES
+====================
+
+✓ Localhost:      http://localhost:3000
+✓ Réseau local:   http://192.168.1.27:3000 (ou votre IP locale)
+✓ Public (ngrok): https://crispate-clementina-uretic.ngrok-free.dev/
+
+FONCTIONNALITES
+===============
+
+✓ Recherche Amazon (souris, clavier, etc)
+✓ Article tracking avec prix
+✓ Support client
+✓ Logs d'activité (mot de passe: fresito)
+✓ Graphiques d'évolution des prix
+
+ARRET DU SERVEUR
+================
+
+Appuyez sur Ctrl+C dans la fenêtre cmd, puis appuyez sur N (Non) 
+pour refuser de relancer automatiquement.
+
+Ou fermez simplement la fenêtre cmd.
+
+TROUBLESHOOTING
+===============
+
+Port 3000 déjà utilisé?
+  → Changez le port dans START_SERVER.bat ligne avec "3000"
+
+Serveur ne démarre pas?
+  → Ouvrez le Terminal et lancez:
+    python start_with_waitress.py
+  (pour voir les messages d'erreur)
+
+ARCHITECTURE
+============
+
+- Serveur: Waitress (WSGI) + Flask
+- Frontend: HTML5 + JavaScript + Chart.js
+- Backend: Python 3.13 + BeautifulSoup
+- Données: JSON local
+- Transport: CORS activé
+
+Version: 2.1 (Stable)
+Date: 19/01/2026

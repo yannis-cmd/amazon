@@ -1,0 +1,264 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🔍 NGROK INSPECTION DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+URL: http://127.0.0.1:4040/inspect/http
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📊 QU'EST-CE QUE C'EST?
+═══════════════════════════════════════════════════════════════════════════════
+
+C'est le **DASHBOARD D'INSPECTION NGROK**.
+
+Il affiche:
+  ✅ Toutes les requêtes HTTP/HTTPS
+  ✅ Les réponses du serveur
+  ✅ Headers & Body
+  ✅ Statut codes (200, 404, 500, etc.)
+  ✅ Temps de réponse
+  ✅ Paramètres envoyés
+
+En temps réel!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 COMMENT L'UTILISER
+═══════════════════════════════════════════════════════════════════════════════
+
+1. ACCÉDEZ AU DASHBOARD:
+   http://127.0.0.1:4040/inspect/http
+
+2. DANS VOTRE APP (https://abc123xyz.ngrok.io/):
+   • Cherchez un article Amazon
+   • Créez un ticket support
+   • Consultez les logs
+   • Cliquez sur les boutons
+
+3. REGARDEZ LE DASHBOARD:
+   Vous verrez toutes les requêtes en direct!
+
+4. CLIQUEZ SUR UNE REQUÊTE:
+   Vous verrez:
+   • Méthode: GET / POST / etc.
+   • URL: /api/search, /api/support, etc.
+   • Status: 200 (OK), 400 (Erreur), etc.
+   • Request body: Les données envoyées
+   • Response body: La réponse du serveur
+   • Headers: Cookies, types, etc.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📋 EXEMPLE DE REQUÊTE
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous cherchez "Nintendo Switch" dans l'app:
+
+DASHBOARD AFFICHERA:
+
+  POST /api/search
+  ┌─────────────────────────────────────────────┐
+  │ Status: 200 OK                              │
+  │ Time: 2.5s                                  │
+  │                                             │
+  │ Request:                                    │
+  │ {                                           │
+  │   "query": "Nintendo Switch",               │
+  │   "user": "Web User"                        │
+  │ }                                           │
+  │                                             │
+  │ Response:                                   │
+  │ {                                           │
+  │   "articles": [                             │
+  │     {                                       │
+  │       "titre": "Nintendo Switch OLED",      │
+  │       "prix": "349,00€",                    │
+  │       "image": "https://...",               │
+  │       "rating": "4.5"                       │
+  │     }                                       │
+  │   ],                                        │
+  │   "count": 10                               │
+  │ }                                           │
+  └─────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔎 FONCTIONNALITÉS DU DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+1. LISTER LES REQUÊTES:
+   • Scroll la liste
+   • Voir toutes les requêtes en temps réel
+   • Filtrer par endpoint
+
+2. INSPECTER UNE REQUÊTE:
+   • Cliquez sur une requête
+   • Voir les détails complets
+   • Voir la réponse du serveur
+
+3. REFAIRE UNE REQUÊTE:
+   • "Replay" button
+   • Renvoie la même requête au serveur
+   • Utile pour tester
+
+4. FILTRER:
+   • Par status code (200, 404, 500, etc.)
+   • Par endpoint
+   • Par méthode (GET, POST, etc.)
+
+5. RECHERCHER:
+   • Chercher par URL
+   • Chercher par status
+   • Chercher par contenu
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🧪 TEST COMPLET AVEC LE DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Ouvrez DEUX ONGLETS:
+   Onglet 1: https://abc123xyz.ngrok.io/
+   Onglet 2: http://127.0.0.1:4040/inspect/http
+
+2. EFFECTUEZ UNE ACTION:
+   Dans l'onglet 1 (app):
+   • Cherchez "iPhone 15"
+   
+   Dans l'onglet 2 (dashboard):
+   • Vous verrez POST /api/search
+   • Status: 200 OK
+   • Response: Les 10 articles
+
+3. CRÉEZ UN TICKET:
+   Dans l'onglet 1 (app):
+   • Email: test@example.com
+   • Titre: Test ticket
+   • Cliquez "Envoyer"
+   
+   Dans l'onglet 2 (dashboard):
+   • Vous verrez POST /api/support
+   • Status: 200 OK
+   • La réponse avec l'ID du ticket
+
+4. CONSULTEZ LES LOGS:
+   Dans l'onglet 1 (app):
+   • Cliquez sur l'onglet "📊 Logs"
+   
+   Dans l'onglet 2 (dashboard):
+   • Vous verrez GET /api/logs
+   • Status: 200 OK
+   • Tous les logs listés
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🐛 DÉBOGUER AVEC LE DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ "La recherche ne fonctionne pas"
+   → Vérifiez dans le dashboard:
+     • Status 200 ou 500?
+     • Message d'erreur en Response?
+     • Essayez "Replay"
+
+❌ "Le ticket ne s'envoie pas"
+   → Dashboard affiche:
+     • POST /api/support 400 (erreur validation)
+     • Vérifiez l'email en Request
+
+❌ "Les logs ne s'affichent"
+   → Dashboard:
+     • GET /api/logs 200 mais response vide?
+     • Pas encore de logs créés?
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💡 ASTUCES
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ LE DASHBOARD SE MET À JOUR EN TEMPS RÉEL
+   Laissez-le ouvert pendant que vous testez
+
+✅ VOUS POUVEZ VOIR LES ERREURS IMMÉDIATEMENT
+   Status 500? Erreur serveur
+   Status 400? Données invalides
+   Status 200? OK!
+
+✅ TESTEZ LES APIs DIRECTEMENT
+   Cliquez "Replay" pour renvoyer une requête
+
+✅ EXPORTEZ LES REQUÊTES
+   Certaines versions Ngrok permettent d'exporter
+
+✅ PARFAIT POUR LA PRODUCTION
+   Surveillez le trafic en direct
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📊 INFORMATIONS AFFICHÉES
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour chaque requête:
+
+✅ Method
+   GET (lecture)
+   POST (création)
+   PUT (modification)
+   DELETE (suppression)
+
+✅ Path
+   /api/search
+   /api/support
+   /api/logs
+   etc.
+
+✅ Status Code
+   200 - OK ✅
+   201 - Créé ✅
+   400 - Erreur client ❌
+   500 - Erreur serveur ❌
+
+✅ Duration
+   Temps en millisecondes
+
+✅ Headers
+   Type de contenu
+   Cookies
+   Authentification
+
+✅ Body
+   Les données envoyées/reçues
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 RÉSUMÉ
+═══════════════════════════════════════════════════════════════════════════════
+
+DASHBOARD NGROK = Vue complète du trafic réseau
+
+BON POUR:
+  ✅ Tester votre app
+  ✅ Déboguer les erreurs
+  ✅ Voir les performances
+  ✅ Vérifier les données envoyées/reçues
+  ✅ Monitorer en production
+
+ACCÈS:
+  http://127.0.0.1:4040/inspect/http
+
+USAGE:
+  Laissez ouvert pendant que vous testez
+  Regardez les requêtes en direct
+  Cliquez pour voir les détails
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🚀 PROCHAINES ÉTAPES
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Ouvrez le dashboard: http://127.0.0.1:4040/inspect/http
+2. Ouvrez votre app: https://abc123xyz.ngrok.io/
+3. Testez une recherche Amazon
+4. Regardez la requête dans le dashboard
+5. Cliquez pour voir les détails
+6. ✅ Comprenez le flux complet!
+
+═══════════════════════════════════════════════════════════════════════════════

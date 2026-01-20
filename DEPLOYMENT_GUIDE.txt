@@ -1,0 +1,230 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🚀 GUIDE DÉPLOIEMENT - AMAZON TRACKER PRO SUR INTERNET
+═══════════════════════════════════════════════════════════════════════════════
+
+📡 NOUVELLES AMÉLIORATIONS:
+✅ Recherche Amazon en direct (titres, prix, images, ratings)
+✅ Déploiement public en 1 clic avec Ngrok
+✅ Partage d'URL pour accès universel
+✅ Interface améliorée avec images et liens
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 DÉPLOIEMENT RAPIDE (2 ÉTAPES)
+═══════════════════════════════════════════════════════════════════════════════
+
+ÉTAPE 1: Démarrer le serveur
+────────────────────────────────────────────────────────────────────────────
+Windows:
+  • Double-cliquez sur: run_web.bat
+
+macOS/Linux:
+  • Ouvrez terminal
+  • Exécutez: bash run_web.sh
+
+
+ÉTAPE 2: Déployer publiquement
+────────────────────────────────────────────────────────────────────────────
+Windows:
+  • Double-cliquez sur: deploy_web.bat
+
+macOS/Linux:
+  • Ouvrez un autre terminal
+  • Exécutez: python deploy_web.py  (ou bash deploy_web.sh)
+
+✅ C'est tout! Vous avez une URL publique!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📱 PARTAGE DE L'URL
+═══════════════════════════════════════════════════════════════════════════════
+
+Une fois déployée, vous recevez une URL comme:
+  🌍 https://abc123xyz.ngrok.io
+
+Vous pouvez la partager:
+  ✅ Par email
+  ✅ Par SMS
+  ✅ Sur les réseaux sociaux
+  ✅ Par Discord
+  ✅ QR Code
+
+TOUT LE MONDE peut accéder depuis n'importe où!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📁 FICHIERS DE DÉPLOIEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+run_web.bat              ← Démarrer le serveur (Windows)
+run_web.sh               ← Démarrer le serveur (macOS/Linux)
+
+deploy_web.bat           ← Déployer publiquement (Windows)
+deploy_web.py            ← Déployer publiquement (Python)
+deploy_web.sh            ← Déployer publiquement (macOS/Linux)
+
+deployment_url.txt       ← URL sauvegardée (généré automatiquement)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔍 NOUVELLE RECHERCHE AMAZON EN DIRECT
+═══════════════════════════════════════════════════════════════════════════════
+
+La recherche affiche maintenant:
+  ✅ Titre complet du produit
+  ✅ Prix en direct d'Amazon
+  ✅ Image du produit
+  ✅ Rating/Étoiles
+  ✅ Lien direct vers Amazon
+  ✅ Jusqu'à 10 résultats pertinents
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ ⚙️ CONFIGURATION NGROK
+═══════════════════════════════════════════════════════════════════════════════
+
+Ngrok est un service gratuit qui expose votre serveur local à Internet.
+
+Avantages:
+  ✅ Gratuit
+  ✅ Aucune configuration réseau requise
+  ✅ URL stables
+  ✅ HTTPS automatique
+  ✅ Pas de pare-feu à configurer
+  ✅ Accessible de partout
+
+Installation automatique:
+  • Les scripts install Ngrok automatiquement si absent
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📊 FLUX COMPLET
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Démarrer Flask
+   run_web.bat / bash run_web.sh
+   ↓
+2. Lancer Ngrok
+   deploy_web.bat / python deploy_web.py
+   ↓
+3. Récupérer URL publique
+   https://abc123xyz.ngrok.io
+   ↓
+4. Partager l'URL
+   Vos utilisateurs accèdent de partout!
+   ↓
+5. Utiliser l'app
+   Recherche, suivi, support, logs
+   ↓
+6. Arrêter (CTRL+C)
+   L'accès public s'arrête
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔒 SÉCURITÉ & LIMITATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+Ngrok Gratuit:
+  • URL change à chaque redémarrage
+  • Jusqu'à 3 sessions simultanées
+  • Bande passante limitée
+  • Parfait pour: tests, démo, petits groupes
+
+Ngrok Pro (optionnel):
+  • URL personnalisée fixe
+  • Sessions illimitées
+  • Bande passante illimitée
+  • Idéal pour: production, app publique
+  • Tarif: ~$5-15/mois
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📋 CHECKLIST DE DÉPLOIEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ Flask fonctionne (localhost:5000)
+✅ Les dépendances sont installées (flask, requests, beautifulsoup4)
+✅ Ngrok est installé
+✅ Firewall autorise le port 5000
+✅ Votre PC est connecté à Internet
+✅ WiFi/Réseau stable
+✅ cloud_config.json configué (optionnel)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ ❓ QUESTIONS COURANTES
+═══════════════════════════════════════════════════════════════════════════════
+
+Q: "Deploy ne fonctionne pas"
+R: 1. Vérifiez que run_web.bat est lancé
+   2. Essayez: http://localhost:5000 dans votre navigateur
+   3. Si 404: le serveur n'est pas prêt, attendez 5s
+   4. Installez Ngrok manuellement: https://ngrok.com/download
+
+Q: "Ngrok dit 'Account Signup Required'"
+R: C'est normal pour les comptes gratuits. Continuez.
+   Pour plus: https://ngrok.com (gratuit)
+
+Q: "L'URL expire"
+R: Oui, Ngrok gratuit génère une nouvelle URL à chaque redémarrage.
+   Solution: Upgrade Ngrok Pro pour une URL fixe
+
+Q: "Recherche Amazon vide"
+R: 1. Vérifiez votre connexion Internet
+   2. Amazon peut bloquer les requêtes trop rapides
+   3. Essayez avec un terme plus spécifique
+   4. Attendez quelques secondes entre les recherches
+
+Q: "Ça dit 'Recherche en direct sur Amazon...' mais ça prend du temps"
+R: Normal! La recherche peut prendre 2-5 secondes.
+   Plus vite = moins de résultats = moins d'informations
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 CAS D'USAGE
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ Présenter à des amis
+   • Déployez avec Ngrok
+   • Partagez l'URL
+   • Ils testent directement
+
+✅ Partager avec des utilisateurs
+   • URL publique
+   • Pas d'installation
+   • Accès depuis n'importe quel appareil
+
+✅ Tests en production
+   • Environnement réel
+   • Connexion Internet réelle
+   • Vrai navigateurs
+
+✅ Démonstration/Présentation
+   • Vidéo en temps réel
+   • Partage d'écran
+   • Audience test en direct
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💾 PROCHAINES ÉTAPES
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Testez la recherche Amazon
+   • Cherchez: "iPhone 15"
+   • Vérifiez images et prix
+
+2. Déployez avec Ngrok
+   • run_web.bat/sh
+   • deploy_web.bat/py
+   • Récupérez l'URL
+
+3. Partagez l'URL
+   • Copie-colle simple
+   • Génération QR Code (optionnel)
+   • Invitez des amis à tester
+
+4. Feedback
+   • Utilisateurs = utilisateur
+   • Collectez les retours
+   • Améliorez
+
+═══════════════════════════════════════════════════════════════════════════════

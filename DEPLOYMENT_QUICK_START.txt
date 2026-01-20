@@ -1,0 +1,103 @@
+═══════════════════════════════════════════════════════════════════════════════
+  ⚡ QUICK START - DÉPLOYER EN 3 CLICS
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ LES 3 ÉTAPES:
+
+1️⃣  LANCER LE SERVEUR
+    Fichier: run_web.bat (Windows)
+    Ou:      bash run_web.sh (macOS/Linux)
+    
+    ✓ Double-cliquez ou exécutez
+    ✓ Attendez le message "Running on..."
+
+2️⃣  DÉPLOYER PUBLIQUEMENT
+    Fichier: deploy_web.bat (Windows)
+    Ou:      python deploy_web.py (tous OS)
+    
+    ✓ Double-cliquez ou exécutez
+    ✓ Attendez le message avec l'URL
+
+3️⃣  PARTAGER L'URL
+    Copiez l'URL publique (https://xxx.ngrok.io)
+    Partagez avec vos utilisateurs
+    
+    ✓ Tout le monde peut accéder!
+    ✓ Pas d'installation requise
+    ✓ Fonctionne sur iPhone, Android, PC, etc.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📱 SUR UN TÉLÉPHONE
+═══════════════════════════════════════════════════════════════════════════════
+
+iPhone:
+  1. Safari → Collez l'URL → Entrez
+  2. Partager → Ajouter à l'écran d'accueil
+  3. ✅ L'app s'installe en 1 clic!
+
+Android:
+  1. Chrome → Collez l'URL → Entrez
+  2. ⋮ (menu) → Installer l'app
+  3. ✅ L'app s'installe en 1 clic!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔍 TESTER LA RECHERCHE
+═══════════════════════════════════════════════════════════════════════════════
+
+Essayez de chercher:
+  • Nintendo Switch
+  • iPhone 15
+  • MacBook Pro
+  • PS5
+  • Anything!
+
+Vous verrez:
+  ✅ Images des produits
+  ✅ Prix en direct d'Amazon
+  ✅ Ratings/Étoiles
+  ✅ Liens directs
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📁 FICHIERS IMPORTANTS
+═══════════════════════════════════════════════════════════════════════════════
+
+run_web.bat              ← Démarrer le serveur
+deploy_web.bat           ← Déployer publiquement
+deployment_url.txt       ← L'URL sauvegardée automatiquement
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ ❌ ÇA NE MARCHE PAS?
+═══════════════════════════════════════════════════════════════════════════════
+
+run_web.bat donne erreur:
+  → Vérifiez que Python est installé
+  → Essayez: python --version
+  → Relancez le script
+
+deploy_web ne trouve pas Ngrok:
+  → Installez Ngrok: https://ngrok.com/download
+  → Ou attendez que le script l'installe
+
+L'URL ne s'ouvre pas:
+  → Attendre 5-10 secondes après le lancement
+  → Vérifier votre connexion Internet
+  → Essayer un autre navigateur
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💡 C'EST TOUT!
+═══════════════════════════════════════════════════════════════════════════════
+
+Vous avez maintenant une app web:
+  ✅ Accessible de partout
+  ✅ Sans installation
+  ✅ Sur n'importe quel appareil
+  ✅ 100% fonctionnelle
+
+Bonne chance! 🎉
+
+═══════════════════════════════════════════════════════════════════════════════

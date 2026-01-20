@@ -1,0 +1,181 @@
+═══════════════════════════════════════════════════════════════════════════════
+  📱 AMAZON TRACKER PRO - INSTALLATION MOBILE
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 DÉMARRAGE RAPIDE
+───────────────────────────────────────────────────────────────────────────────
+
+✅ POUR LES UTILISATEURS - Installation facile
+
+  1. ANDROID
+     • Téléchargez: amazon_tracker_mobile.apk
+     • Installez sur votre téléphone
+     • Ouvrez l'application
+     ✓ C'est tout! 🎉
+
+  2. iOS  
+     • Téléchargez depuis l'App Store
+     • Installez sur votre iPhone/iPad
+     • Ouvrez l'application
+     ✓ C'est tout! 🎉
+
+
+⚙️ POUR LES DÉVELOPPEURS - Compilation personnalisée
+
+  1. Vérifiez les prérequis:
+     python build_mobile_app.py
+  
+  2. Compiler:
+     bash install_mobile.sh  (Linux/macOS)
+     install_mobile.bat      (Windows)
+  
+  3. Générez l'APK/IPA:
+     buildozer android debug
+     buildozer ios debug
+
+
+📚 FICHIERS INCLUS
+───────────────────────────────────────────────────────────────────────────────
+
+1. INSTALLATION
+   • MOBILE_INSTALLATION.md ← LIRE D'ABORD!
+   • install_mobile.sh (Linux/macOS)
+   • install_mobile.bat (Windows)
+   • build_mobile_app.py (Script automatisé)
+
+2. CODE SOURCE
+   • amazon_tracker_mobile.py (Code Kivy)
+   • buildozer.spec (Configuration de build)
+   • requirements_mobile.txt (Dépendances)
+
+3. DOCUMENTATION
+   • MOBILE_README.md (Vue d'ensemble)
+   • MOBILE_INSTALLATION.md (Guide détaillé)
+
+
+🚀 ÉTAPES D'INSTALLATION
+───────────────────────────────────────────────────────────────────────────────
+
+ÉTAPE 1: Lire la documentation
+  📄 Ouvrez: MOBILE_INSTALLATION.md
+
+ÉTAPE 2: Télécharger l'APK (Android) OU utiliser App Store (iOS)
+  📱 Android:
+     - Téléchargez amazon_tracker-1.0.0-release.apk
+     - Ouvrez sur votre téléphone Android
+     - Installez
+  
+  📱 iOS:
+     - Ouvrez App Store
+     - Recherchez "Amazon Tracker Pro"
+     - Installez
+
+ÉTAPE 3: Ouvrir l'application
+  • Trouvez l'icône 🛒 Amazon Tracker Pro
+  • Cliquez pour ouvrir
+  • Suivez le guide in-app
+
+
+📋 CONTENU DE L'INSTALLATION MOBILE
+───────────────────────────────────────────────────────────────────────────────
+
+AMAZON_TRACKER_MOBILE.PY (3KB)
+  • Interface utilisateur Kivy
+  • Fenêtre principale
+  • Fonctionnalités mobiles
+  • Compatibilité Android/iOS
+
+BUILDOZER.SPEC (4KB)
+  • Configuration de compilation
+  • Permissions Android
+  • Paramètres iOS
+  • Architecture cibles
+
+REQUIREMENTS_MOBILE.TXT (1KB)
+  • kivy==2.2.1
+  • requests==2.31.0
+  • beautifulsoup4==4.12.2
+  • buildozer==1.5.0
+  • cython==0.29.36
+
+INSTALL_MOBILE.SH (3KB)
+  • Script d'installation (Linux/macOS)
+  • Vérifie les dépendances
+  • Compile vers APK/IPA
+
+INSTALL_MOBILE.BAT (2KB)
+  • Script d'installation (Windows)
+  • Vérifie les dépendances
+  • Compile vers APK
+
+BUILD_MOBILE_APP.PY (5KB)
+  • Script de compilation automatisé
+  • Menu interactif
+  • Gestion des erreurs
+  • Logs détaillés
+
+
+💡 CONSEILS
+───────────────────────────────────────────────────────────────────────────────
+
+✓ Lisez MOBILE_INSTALLATION.md pour les détails complets
+
+✓ Pour Android:
+  - Téléchargez simplement l'APK et installez
+  - Pas besoin de programmer
+
+✓ Pour iOS:
+  - Utilisez l'App Store (plus facile)
+  - Ou TestFlight pour les versions bêta
+
+✓ Pour développeurs:
+  - Clonez le repo
+  - Installez les dépendances
+  - Compilez avec buildozer
+
+
+🔧 DÉPANNAGE RAPIDE
+───────────────────────────────────────────────────────────────────────────────
+
+Problème: L'APK ne s'installe pas
+→ Vérifiez que vous avez activé "Sources inconnues"
+→ Consultez: MOBILE_INSTALLATION.md section Dépannage
+
+Problème: Je ne peux pas compiler
+→ Vérifiez les prérequis: python build_mobile_app.py
+→ Consultez: MOBILE_INSTALLATION.md section Compilation avancée
+
+Problème: L'application plante
+→ Réinstallez l'application
+→ Videz le cache
+→ Consultez: MOBILE_INSTALLATION.md section Dépannage
+
+
+📞 SUPPORT
+───────────────────────────────────────────────────────────────────────────────
+
+📧 Email: support@amazontracker.com
+🐛 Issues: github.com/amazontracker/issues
+💬 Discord: [Lien Discord]
+
+📚 Documentation:
+  • Kivy: https://kivy.org/
+  • Buildozer: https://buildozer.readthedocs.io/
+  • Android: https://developer.android.com/
+  • iOS: https://developer.apple.com/
+
+
+✅ PROCHAINES ÉTAPES
+───────────────────────────────────────────────────────────────────────────────
+
+1. Ouvrez: MOBILE_INSTALLATION.md
+2. Choisissez votre plateforme (Android ou iOS)
+3. Suivez les instructions étape par étape
+4. Installez l'application
+5. Profitez d'Amazon Tracker Pro! 🎉
+
+
+═══════════════════════════════════════════════════════════════════════════════
+Dernière mise à jour: 2026-01-19
+Version: 1.0.0
+═══════════════════════════════════════════════════════════════════════════════

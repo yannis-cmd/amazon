@@ -1,0 +1,11 @@
+{
+  "discord_webhook": "https://discord.com/api/webhooks/1462746947596189767/uJaA7dNrbPXW9aT6QN7Svtwgw3C7f0CWNjBdKy_743ysiLpGTuueAnHaz100dC6d8kKm",
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
+  "google_sheet_id": "",
+  "google_api_key": "",
+  "smtp_server": "",
+  "smtp_port": 587,
+  "from_email": "",
+  "from_password": ""
+}

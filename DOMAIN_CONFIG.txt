@@ -1,0 +1,138 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🔧 CONFIGURATION DU DOMAINE PERSONNALISÉ (OPTIONNEL)
+═══════════════════════════════════════════════════════════════════════════════
+
+Actuellement: https://abc123xyz.ngrok.io/ (URL aléatoire, change à chaque démarrage)
+Vous voulez: https://amazontracker.ngrok.io/ (URL fixe, toujours la même)
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💰 OPTION 1: NGROK PRO (RECOMMANDÉ)
+═══════════════════════════════════════════════════════════════════════════════
+
+COÛT: ~$5-15/mois
+
+AVANTAGES:
+  ✅ URL fixe (ne change jamais)
+  ✅ Domaine personnalisé
+  ✅ Plus de contrôle
+  ✅ Bande passante illimitée
+  ✅ 3+ sessions simultanées
+
+COMMENT FAIRE:
+
+1. Créez un compte Ngrok:
+   https://ngrok.com/
+   
+2. Achetez un plan Pro (5$/mois minimum)
+
+3. Obtenez votre token d'authentification
+
+4. Configurez le domaine:
+   ngrok config add-authtoken YOUR_TOKEN
+   
+5. Modifiez deploy_web.py:
+   Changez:
+     ngrok http 5000 --bind-tls=true
+   En:
+     ngrok http 5000 --subdomain=amazontracker --bind-tls=true
+   
+6. Relancez deploy_web.bat
+
+✅ Votre URL: https://amazontracker.ngrok.io/
+   (toujours la même!)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🆓 OPTION 2: RESTER EN GRATUIT (MAIS GRATUIT)
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ GRATUIT: 0€/mois
+
+⚠️  LIMITATION: L'URL change à chaque redémarrage
+
+MAIS:
+  • Parfait pour:
+    - Tests
+    - Démo
+    - Groupes petits
+    - Développement
+  
+  • L'app fonctionne exactement pareil
+  • Juste l'URL qui change
+
+SOLUTION:
+  → Gardez les deux fenêtres ouvertes
+  → L'URL reste la même tant qu'on ne ferme pas
+  → Si vous fermez: nouvelle URL au redémarrage
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📌 FICHIERS À MODIFIER (PRO)
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous achetez Ngrok Pro, modifiez deploy_web.py:
+
+Cherchez cette ligne (ligne ~40):
+  ['ngrok', 'http', '5000', '--bind-tls=true'],
+
+Remplacez par:
+  ['ngrok', 'http', '5000', '--subdomain=amazontracker', '--bind-tls=true'],
+
+Changez "amazontracker" par votre domaine:
+  https://amazontracker.ngrok.io/ ← Votre URL Pro
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 RECOMMANDATION
+═══════════════════════════════════════════════════════════════════════════════
+
+POUR COMMENCER:
+  → Utilisez Ngrok gratuit (start_all.bat)
+  → C'est parfait pour tester
+
+POUR LA PRODUCTION:
+  → Upgrade Ngrok Pro
+  → Obtenez une URL fixe
+  → Partagez confidentellement
+
+POUR UNE VRAIE APP:
+  → Hébergez sur Heroku / AWS / DigitalOcean
+  → Obtenez un domaine personnel
+  → Déploiement permanent
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🚀 ACTUELLEMENT DISPONIBLE
+═══════════════════════════════════════════════════════════════════════════════
+
+GRATUIT (Ngrok):
+  ✅ start_all.bat
+     → 2 fenêtres
+     → URL générée automatiquement
+     → Prêt tout de suite!
+
+PAYANT (Ngrok Pro):
+  → URL fixe
+  → Domaine personnalisé
+  → ~$5/mois
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💡 RÉSUMÉ
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUS ACTUEL:
+  ✅ App publique: READY
+  ✅ Lancement facile: start_all.bat
+  ✅ URL: https://abc123xyz.ngrok.io (génération auto)
+
+OPTIONNEL:
+  • Upgrade Ngrok Pro = URL fixe (~$5/mois)
+  • Domaine personnalisé = amazontracker.ngrok.io
+
+RECOMMANDATION:
+  → Commencez en gratuit
+  → Testez avec vos utilisateurs
+  → Upgrade si besoin d'une URL fixe
+
+═══════════════════════════════════════════════════════════════════════════════

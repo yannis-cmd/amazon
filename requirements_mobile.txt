@@ -1,0 +1,27 @@
+# requirements_mobile.txt - Dépendances pour Amazon Tracker Pro Mobile
+
+# Framework Kivy pour Android/iOS
+kivy==2.2.1
+kivy-garden==0.1.5
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Outils de compilation
+buildozer==1.5.0
+cython==0.29.36
+
+# Utilitaires
+python-dotenv==1.0.0
+certifi==2023.7.22
+
+# Optionnel: pour notifications
+plyer==2.1.0
+
+# Optionnel: pour base de données locale
+sqlalchemy==2.0.23
+
+# Format de données
+jsonschema==4.19.1

@@ -1,0 +1,230 @@
+"""
+QUICK_SUPPORT_SETUP.txt - Configuration Rapide du Support Client
+
+Guide en 5 minutes pour configurer le système de support.
+"""
+
+═══════════════════════════════════════════════════════════════════════════════
+                CONFIGURATION RAPIDE DU SUPPORT CLIENT
+                        5 minutes maximum
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 ÉTAPE 1: VÉRIFIER LES FICHIERS
+═════════════════════════════════════════════════════════════════════════════
+
+Assurez-vous que ces fichiers existent:
+  ✓ support.py
+  ✓ support_ui.py
+  ✓ cloud_sync.py
+  ✓ setup_support.py (optionnel)
+
+Si un fichier manque, l'installation n'est pas complète.
+
+
+🚀 ÉTAPE 2: CONFIGURATION MINIMALE (2 minutes)
+═════════════════════════════════════════════════════════════════════════════
+
+Rien à faire! Le système fonctionne avec la configuration par défaut.
+
+Les tickets seront:
+  ✓ Créés localement dans support_tickets.json
+  ✓ Accessibles depuis "Mes Tickets"
+  ✓ Sauvegardés automatiquement
+
+
+☁️  ÉTAPE 3: CONFIGURATION CLOUD (Optionnel - 3 minutes)
+═════════════════════════════════════════════════════════════════════════════
+
+A. Configuration avec Interface Graphique (Recommandé)
+
+   1. Exécutez: python setup_support.py
+   2. Remplissez les informations
+   3. Cliquez "Sauvegarder"
+
+   C'est fait! cloud_config.json sera créé automatiquement.
+
+
+B. Configuration Manuelle (Avancé)
+
+   1. Copiez cloud_config.example.json → cloud_config.json
+   2. Remplissez avec vos informations
+   3. Sauvegardez
+
+
+📱 SERVICES CLOUD DISPONIBLES
+═════════════════════════════════════════════════════════════════════════════
+
+DISCORD (⭐ Recommandé)
+   - Notifications en temps réel
+   - Interface riche avec couleurs
+   - Gratuit
+   - Étapes:
+     1. Créez un serveur Discord
+     2. Clic droit sur un canal → Paramètres → Intégrations → Webhooks
+     3. Nouveau Webhook → Copiez l'URL
+     4. Collez l'URL dans setup_support.py
+
+TELEGRAM (⭐ Très Pratique)
+   - Accès mobile
+   - Notifications push
+   - Gratuit
+   - Étapes:
+     1. Cherchez @BotFather dans Telegram
+     2. /newbot → Suivez les instructions → Copiez le token
+     3. Cherchez @userinfobot → Trouvez votre chat_id
+     4. Entrez token et chat_id dans setup_support.py
+
+GOOGLE SHEETS
+   - Vue d'ensemble complète
+   - Partage facile
+   - Gratuit (avec Google Account)
+   - Étapes:
+     1. Créez un Google Sheet
+     2. Google Cloud Console → Clé API
+     3. Entrez Sheet ID et API Key dans setup_support.py
+
+EMAIL
+   - Simple
+   - Universel
+   - Gratuit (avec Gmail)
+   - Étapes:
+     1. Gmail → Paramètres → Mots de passe d'application
+     2. Générez un mot de passe d'application
+     3. Entrez credentials dans setup_support.py
+
+
+🧪 ÉTAPE 4: TESTER LE SYSTÈME
+═════════════════════════════════════════════════════════════════════════════
+
+Exécutez:
+  python test_support.py
+
+Résultat attendu:
+  [OK] Création de ticket
+  [OK] Récupération du ticket
+  [OK] Ajout d'une note
+  [OK] Mise à jour du statut
+  [OK] Listing des tickets
+  [OK] Export du ticket
+  [OK] Configuration cloud
+  [OK] Test de synchronisation cloud
+
+  Total: 8/8 tests passés
+
+
+✅ ÉTAPE 5: INTÉGRATION DANS L'APP
+═════════════════════════════════════════════════════════════════════════════
+
+Consultez INTEGRATION_SUPPORT.md pour les détails.
+
+Version minimale (5 lignes):
+
+   from support_ui import show_support_window
+   
+   support_button = tk.Button(
+       root,
+       text="Support Client",
+       command=lambda: show_support_window(root)
+   )
+
+
+🎯 UTILISATION FINALE
+═════════════════════════════════════════════════════════════════════════════
+
+1. L'utilisateur voit un bouton "Support Client" dans l'app
+2. Clique sur le bouton
+3. Fenêtre s'ouvre
+4. Remplit un formulaire (titre, description, priorité)
+5. Clique "Créer le Ticket"
+6. Ticket créé et synchronisé vers tous les services configurés
+7. Utilisateur reçoit la notification (Discord/Telegram/Email/etc)
+8. Support peut consulter et répondre
+9. Utilisateur consulte le statut depuis "Mes Tickets"
+
+
+📊 ARCHITECTURE
+═════════════════════════════════════════════════════════════════════════════
+
+Utilisateur → UI Support (support_ui.py)
+              ↓
+           Ticket Manager (support.py)
+              ↓
+           support_tickets.json (Stockage Local)
+              ↓
+           Cloud Sync (cloud_sync.py)
+              ↓
+          ┌─────────┴─────────┬──────────────┬──────────────┐
+          ▼                   ▼              ▼              ▼
+        Discord           Telegram      Google Sheets     Email
+
+
+📝 FICHIERS CRÉÉS
+═════════════════════════════════════════════════════════════════════════════
+
+support_tickets.json
+  → Tous les tickets créés
+  → Format JSON
+  → Mis à jour automatiquement
+
+cloud_config.json
+  → Configuration cloud (créé par setup_support.py)
+  → Contient webhooks, tokens, clés API
+  → À garder secret!
+
+logs/amazon_tracker_*.log
+  → Logs du système
+  → Utile pour déboguer
+
+
+⚠️  SÉCURITÉ
+═════════════════════════════════════════════════════════════════════════════
+
+NE JAMAIS:
+  ✗ Partager cloud_config.json
+  ✗ Commit cloud_config.json sur GitHub
+  ✗ Envoyer les clés API par email
+  ✗ Mettre les tokens en dur dans le code
+
+BONNES PRATIQUES:
+  ✓ Utilisez des variables d'environnement pour les secrets
+  ✓ Changez les webhooks si compromis
+  ✓ Limitez les accès aux Google Sheets
+  ✓ Utilisez des mots de passe d'application (pas le vrai mot de passe)
+
+
+🐛 DÉPANNAGE RAPIDE
+═════════════════════════════════════════════════════════════════════════════
+
+Problème: Les tickets ne s'enregistrent pas
+Solution: Vérifiez que vous avez les permissions d'écriture
+
+Problème: Les notifications ne arrivent pas
+Solution: Vérifiez cloud_config.json avec: python -c "from cloud_sync import cloud_sync; print(cloud_sync.config)"
+
+Problème: Erreur d'import
+Solution: cd vers le bon répertoire et assurez-vous que support.py existe
+
+Problème: cloud_sync.py plante
+Solution: Assurez-vous que requests est installé: pip install requests
+
+
+📞 SUPPORT
+═════════════════════════════════════════════════════════════════════════════
+
+Consultez les fichiers de documentation:
+  - SUPPORT_CLIENT.md (Guide complet utilisateur)
+  - INTEGRATION_SUPPORT.md (Intégration technique)
+  - logs/amazon_tracker_*.log (Logs détaillés)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                        FIN DE LA CONFIGURATION
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Configuration minimale: 0 minutes (fonctionne sans config)
+✓ Configuration cloud: 5 minutes
+✓ Intégration dans l'app: 5 minutes
+
+Total: 10 minutes pour un système de support complet!
+
+Lancez l'app: python main.py

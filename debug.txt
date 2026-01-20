@@ -1,0 +1,19 @@
+﻿==================================================
+Python version: 3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]
+Working dir: C:\Users\eisbr\Nouveau dossier
+==================================================
+
+[TEST 1] Importing app_web_v2_1...
+[OK] App imported successfully
+
+[TEST 2] Checking routes...
+  Found 1 routes with 'logs':
+    - /api/logs
+
+[TEST 3] Importing waitress...
+[OK] Waitress imported
+
+[TEST 4] Starting Waitress on port 3000...
+  Waiting for requests. Make requests in another terminal.
+==================================================
+[SERVE] About to call serve()...

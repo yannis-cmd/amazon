@@ -1,0 +1,140 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🌐 ACCÈS PUBLIC - AMAZON TRACKER PRO
+═══════════════════════════════════════════════════════════════════════════════
+
+Vous voulez que votre app soit accessible de partout? ✅ C'EST PRÊT!
+
+═══════════════════════════════════════════════════════════════════════════════
+ ⚡ LANCEMENT ULTRA-RAPIDE (1 CLIC)
+═══════════════════════════════════════════════════════════════════════════════
+
+SIMPLE:
+  Double-cliquez sur: start_all.bat
+
+✅ Tout se lance automatiquement!
+   • Serveur Web
+   • Tunnel Ngrok
+   • URL publique générée
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎯 QU'EST-CE QUI SE PASSE?
+═══════════════════════════════════════════════════════════════════════════════
+
+Avant:
+  ❌ App accessible uniquement sur votre PC
+  ❌ http://localhost:5000
+
+Après:
+  ✅ App accessible de PARTOUT
+  ✅ https://abc123xyz.ngrok.io/
+  ✅ iPhone, Android, PC, Mac, Linux
+  ✅ N'importe quel navigateur
+  ✅ Aucune installation
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 📊 FLUX COMPLET
+═══════════════════════════════════════════════════════════════════════════════
+
+1️⃣  Double-cliquez: start_all.bat
+    ↓
+2️⃣  Deux fenêtres s'ouvrent
+    • PowerShell 1: Serveur Web
+    • PowerShell 2: Ngrok Tunnel
+    ↓
+3️⃣  Cherchez l'URL Ngrok dans PowerShell 2
+    Exemple: https://abc123xyz.ngrok.io
+    ↓
+4️⃣  Ouvrez l'URL dans votre navigateur
+    ↓
+5️⃣  ✅ BOOM! Vous êtes en ligne!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 💡 COMMENT UTILISER L'URL PUBLIC
+═══════════════════════════════════════════════════════════════════════════════
+
+PARTAGER AVEC DES AMIS:
+  • Copie-colle simple
+  • SMS
+  • Email
+  • Discord
+  • Slack
+  • Tout!
+
+ACCÈS SUR TÉLÉPHONE:
+  iPhone (Safari):
+    1. Tapez l'URL
+    2. Partager → "Ajouter à l'écran d'accueil"
+    3. ✅ App native!
+
+  Android (Chrome):
+    1. Tapez l'URL
+    2. Menu (⋮) → "Installer l'app"
+    3. ✅ App mobile!
+
+SUR AUTRE PC:
+  • Juste ouvrir le lien
+  • Fonctionne immédiatement
+  • Aucun setup
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ ⚠️  IMPORTANT
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ LES DEUX FENÊTRES DOIVENT RESTER OUVERTES
+   • PowerShell 1: Serveur
+   • PowerShell 2: Tunnel
+
+✅ SI VOUS FERMEZ L'UNE DES DEUX:
+   • L'app s'arrête
+   • L'URL ne fonctionne plus
+   → Relancez start_all.bat
+
+✅ L'URL CHANGE À CHAQUE REDÉMARRAGE (Ngrok gratuit)
+   → Normal!
+   → Upgrade Ngrok Pro si vous voulez une URL fixe
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🔍 CHECKLISTE
+═══════════════════════════════════════════════════════════════════════════════
+
+Avant de lancer start_all.bat, vérifiez:
+
+✅ Vous êtes dans le bon dossier
+   (celui avec app_web.py, run_web.bat, etc.)
+
+✅ Flask est installé
+   pip install flask requests beautifulsoup4
+
+✅ Ngrok est installé (ou s'installe automatiquement)
+
+✅ Vous avez Internet
+
+Si tout ✅, alors:
+   Double-cliquez start_all.bat → C'est GO!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+ 🎉 RÉSUMÉ
+═══════════════════════════════════════════════════════════════════════════════
+
+AVANT (app_web.py local):
+  ❌ Accessible uniquement sur votre PC
+  ❌ http://localhost:5000
+
+MAINTENANT (avec start_all.bat):
+  ✅ Accessible de PARTOUT
+  ✅ https://abc123xyz.ngrok.io/
+  ✅ Sur tous les appareils
+  ✅ Aucune installation
+  ✅ Prêt à montrer à vos utilisateurs!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+                            🚀 LANCEZ ET PROFITEZ!
+
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,63 @@
+CONFIGURATION NGROK - ETAPES A SUIVRE
+═══════════════════════════════════════════════════════════════════════════════
+
+PROBLEME ACTUEL:
+  Vous avez lance: ngrok config add-authtoken $YOUR_AUTHTOKENV
+  Mais $YOUR_AUTHTOKENV est un placeholder - ce n'est pas votre vrai token!
+
+SOLUTION:
+═════════════════════════════════════════════════════════════════════════════════
+
+ETAPE 1: OBTENIR VOTRE AUTHTOKEN
+──────────────────────────────────
+1. Allez sur: https://ngrok.com/
+2. Cliquez "Sign Up" en haut a droite
+3. Creez un compte (gratuit)
+4. Verifiez votre email
+5. Connectez-vous
+6. Allez a: https://dashboard.ngrok.com/get-started/your-authtoken
+7. Copiez votre token (il ressemble a: 2Yt.....)
+
+
+ETAPE 2: CONFIGURER NGROK
+──────────────────────────────────
+Ouvrez PowerShell et lancez:
+
+  ngrok config add-authtoken VOTRE_TOKEN_REEL
+
+Remplacez VOTRE_TOKEN_REEL par votre vrai token!
+
+Exemple:
+  ngrok config add-authtoken 2YtG8d8K8h9J0kL1mN2oP3q
+
+Vous verrez:
+  Authtoken saved to configuration file: C:\Users\eisbr\AppData\Local\ngrok\ngrok.yml
+
+
+ETAPE 3: LANCER LE TUNNEL
+──────────────────────────────────
+Dans PowerShell:
+
+  ngrok http 3000
+
+Vous verrez quelque chose comme:
+
+  Session Status:   online
+  Account:          your-email@gmail.com
+  Version:          X.X.X
+  Region:           us
+  Latency:          X ms
+  Web Interface:    http://127.0.0.1:4040
+  Forwarding:       https://abc-123-def.ngrok-free.app -> http://localhost:3000
+
+Copiez l'URL: https://abc-123-def.ngrok-free.app
+C'est votre site public!
+
+
+BESOIN D'AIDE?
+──────────────────────────────────
+- Si le token est invalide: Creez un nouveau compte sur ngrok.com
+- Si ngrok n'est pas en PATH: Retéléchargez depuis ngrok.com/download
+- Besoin d'une URL fixe? Upgrade vers Ngrok Pro (~5$/mois)
+
+═════════════════════════════════════════════════════════════════════════════════
